@@ -1,0 +1,110 @@
+<!-- kadai_008のコード -->
+    <header>
+      <h1>SAMURAIニュース</h1>
+      <nav>
+        <a href="https://www.sejuku.net/">ホーム</a>
+        <a href="https://www.sejuku.net/">社会</a>
+        <a href="https://www.sejuku.net/">経済</a>
+        <a href="https://www.sejuku.net/">スポーツ</a>
+        <a href="https://www.sejuku.net/">テクノロジー</a>
+      </nav>
+      <main>
+        <article>
+          <section>
+            <h2>社会</h2>
+            <h3>和菓子店も「トリックオアトリート！」</h3>
+            <p>日本でも年々人気の高まるハロウィン。<br>今年は大手和菓子店5社がハロウィン向けの和菓子セットを共同開発しました。</p>
+            <audio src="ichi.mp3" controls></audio>
+            <h3>私のおすすめ和菓子アンケートフォーム</h3>
+            <form >
+              <label>氏名</label>
+              <input type="text" placeholder="名前を入力してください">
+              <br>
+              <label>年代</label>
+              <select>
+                <option>10代以下</option>
+                <option>20代</option>
+                <option>30代</option>
+                <option>40代以上</option>
+              </select>
+              <br>
+                <label>男性</label><input type="radio" name="gender">
+                <label>女性</label><input type="radio" name="gender">
+                <label>その他</label><input type="radio" name="gender">
+                <br>
+                <label>おすすめの和菓子の名称</label>
+              <input type="text" placeholder="例：みたらし団子">
+              <br>
+              <label>おすすめする理由</label>
+              <textarea></textarea>
+              <br>
+              <label>個人情報保護方針に同意する</label>
+              <input type="checkbox">
+              <br>
+              <input type="submit" value="送信">
+              <input type="reset" value="リセット">
+            </form>
+          </section>
+          <section>
+            <h2>テクノロジー</h2>
+            <h3>SAMURAIが新しい動画をリリース</h3>
+            <p>SAMURAI公式YouTubeで新しい動画がリリースされました。<br>動画の内容はHTML/CSSの解説です。</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLiGSUohEo?si=FDNqFZRiXfaUFhW3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </article>
+      </main>
+      <footer>
+        <p>&copy; SAMURAIニュース</p>
+      </footer>
+    </header>
+    <!-- kadai_008のコード -->
+    <!-- MYPROFILEのコード -->
+    <main>
+      <h1><span class="sky-blue">M</span>Y<span class="pink">P</span>ROFILE</h1>
+      <div id="basic">
+       <h2 class="pink">名前</h2>
+       <p>侍　太郎</p>
+       <h2 class="sky-blue">生年月日</h2>
+       <p>1990年1月1日</p>
+       <h2 class="pink">血液型</h2>
+       <p>O型</p>
+      </div>
+      <h2 class="sky-blue">趣味</h2>
+      <p>旅行、読書、ゲーム</p>
+      <h2 class="pink">好きな食べ物</h2>
+      <p>ハンバーグ、きつねうどん、抹茶アイス</p>
+      <h2 class="sky-blue">プログラミングを始めた理由</h2>
+      <p>プログラマーとして転職したいから。<br>転職して数年後にはフリーランスになって、旅行しながら仕事したい！</p>
+    </main>
+    <!-- MYPROFILEのコード -->
+
+
+<!-- MYPROFILEのCSS -->
+body {
+  font-size: "Arial", "Meiryo", sans-serif;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1.2em;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  text-shadow: 1px 1px 2px gray;
+}
+
+html {
+  text-align: center;
+  font-size: 20px;font-size
+}
+
+.sky-blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+#basic, h2 {
+  font-weight: bold;
+}
+<!-- MYPROFILEのCSS -->
